@@ -9,9 +9,9 @@ const Layout = (props) => {
     return (
         <>
             <Helmet>
-                <title>Welcome! I am mninahuanca</title>
+                <title>Welcome! I am Manuel</title>
             </Helmet>
-            <body >
+            <body className="is-framed" >
                 {props.children}
             </body>
 
