@@ -1,0 +1,27 @@
+.profile{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.skills{
+    
+    display: inline-block;
+    column-count: 3;
+    column-gap: 100px;
+
+    &-item{
+        border: 3px solid black;
+        border-radius: 3px;
+        padding: 1rem 2rem;
+        transition: all .2s;
+
+        &:hover{
+            background-color: $color-primary-light;
+            color: white;
+        }
+
+        &:not(:last-child){
+            margin-bottom: 30px;
+        }
+    }
+}

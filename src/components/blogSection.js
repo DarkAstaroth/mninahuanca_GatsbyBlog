@@ -6,13 +6,10 @@ const BlogSection = () => {
             <section className="is-text-align-center">
                 <div className="content-wrap">
                     <div className="content">
-                        <h2>Blog</h2>
+                        <h2>Blog Section</h2>
                         <p></p>
+                        <a class="button bold uppercase" href="#">Go to Blog</a>
                     </div>
-                </div>
-
-                <div className="content">
-
                 </div>
             </section>
         </>

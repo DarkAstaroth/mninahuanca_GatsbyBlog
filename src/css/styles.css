@@ -1,5 +1,19 @@
-.profile{
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-}
+.profile {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px; }
+
+.skills {
+  display: inline-block;
+  column-count: 3;
+  column-gap: 100px; }
+  .skills-item {
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    transition: all .2s; }
+    .skills-item:hover {
+      background-color: #2998ff;
+      color: white; }
+    .skills-item:not(:last-child) {
+      margin-bottom: 30px; }
