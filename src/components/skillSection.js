@@ -35,7 +35,6 @@ const SkillSection = () => {
                     <SkillItem icon={faJsSquare} text="JavaScript" />
                     <SkillItem icon={faServer} text="Express" />
                     <SkillItem icon={faBootstrap} text="Bootstrap" />
-
                 </div>
 
             </section>
