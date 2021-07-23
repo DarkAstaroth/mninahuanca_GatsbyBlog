@@ -8,7 +8,7 @@ const BlogSection = () => {
                     <div className="content">
                         <h2>Blog Section</h2>
                         <p></p>
-                        <a class="button bold uppercase" href="#">Go to Blog</a>
+                        <a class="button bold uppercase" href="#!">Go to Blog</a>
                     </div>
                 </div>
             </section>
