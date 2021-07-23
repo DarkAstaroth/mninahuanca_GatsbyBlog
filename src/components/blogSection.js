@@ -1,4 +1,5 @@
 import React from 'react';
+import SimpleCardBlog from './simpleCardBlog';
 
 const BlogSection = () => {
     return (
@@ -8,8 +9,16 @@ const BlogSection = () => {
                     <div className="content">
                         <h2>Blog Section</h2>
                         <p></p>
-                        <a class="button bold uppercase" href="#!">Go to Blog</a>
                     </div>
+                </div>
+
+                <div className="row">
+                    <div className="posts">
+                        <SimpleCardBlog />
+                        <SimpleCardBlog />
+                        <SimpleCardBlog />
+                    </div>
+                    <a class="button bold uppercase" href="#!">Go to Blog</a>
                 </div>
             </section>
         </>
