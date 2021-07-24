@@ -117,3 +117,25 @@
   @media (max-width: 56.25em) {
     .BlogCard {
       margin-bottom: 2rem; } }
+
+.inputForm {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem; }
+  @media (max-width: 37.5em) {
+    .inputForm {
+      width: 90%; } }
+
+.footer {
+  width: 100%;
+  height: 6rem;
+  background-color: #00315c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  color: white; }
+  @media (max-width: 37.5em) {
+    .footer {
+      height: 4rem; } }

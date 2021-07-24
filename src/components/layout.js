@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import Footer from './Footer';
 import '../css/fonts/hk-grotesk/style.css';
 import '../css/fonts/fontello/css/fontello.css';
 import '../css/main.css';
@@ -14,6 +15,8 @@ const Layout = (props) => {
             <body className="is-framed" >
                 {props.children}
             </body>
+
+            <Footer />
 
         </>
     );
